@@ -18,7 +18,7 @@ L'objectif est de réduire la surface d'attaque liée à l'erreur humaine (phish
     * Restriction d'accès à l'API Flask par réseau autorisé et limitation de taux. Les clés API présentes dans le fichier `.env` servent aux appels sortants vers VirusTotal, OTX et AbuseIPDB. Elles ne constituent pas une authentification d'accès à l'API Flask.
 
 ## Fonctionnement simplifié
-
+```text
 [Utilisateur Outlook]
         |
         v
@@ -37,7 +37,7 @@ L'objectif est de réduire la surface d'attaque liée à l'erreur humaine (phish
         |
         v
 [Verdict + cache SQLite local]
-
+```
 ##  Architecture du Projet
 
 Le projet est divisé en trois parties distinctes : le backend Python/Flask, le frontend HTML/JS hébergé par Outlook et la configuration du complément Outlook
