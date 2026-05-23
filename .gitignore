@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environnement
+.env
+.env.*
+!.env.example
+
+# Base locale
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificats locaux
+*.crt
+*.key
+*.pem
+
+# Frontend config locale
+frontend/config.js
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
